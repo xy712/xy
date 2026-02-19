@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+int main()
+{
+	int account = 100;
+	printf("%d\n",account);
+	
+	account += 10;
+	printf("%d\n",account);
+	
+	account -= 20;
+	printf("%d\n",account);
+	
+	account = 0;
+	printf("%d\n",account);
+	return 0; 
+}
